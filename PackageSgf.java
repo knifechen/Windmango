@@ -32,7 +32,7 @@ public class PackageSgf {
 		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(targetFile)));
 		
 		StringBuilder builder = new StringBuilder();
-		builder.append("SGF_DATA").append("{");
+		builder.append("SGF_DATAaaa").append("{");
 		
 		File rootDir = new File(dir);
 		if( rootDir.exists() && rootDir.isDirectory() ) {
