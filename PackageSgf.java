@@ -33,7 +33,7 @@ public class PackageSgf {
 		
 		StringBuilder builder = new StringBuilder();
 		builder.append("SGF_DATAaaa").append("{");
-		
+		//come on
 		File rootDir = new File(dir);
 		if( rootDir.exists() && rootDir.isDirectory() ) {
 			File[] fileList = rootDir.listFiles();
